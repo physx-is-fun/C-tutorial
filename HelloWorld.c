@@ -169,6 +169,7 @@ int main(){
         * Variables
         * Statements & Expressions
         * Comments
+    C - Program Structure. (2012, June 10). Tutorials Point. Retrieved April 16, 2023, from https://www.tutorialspoint.com/cprogramming/c_program_structure.htm
     Let us look at a simple code that would print the words "Hello World"
 
     #include <stdio.h>
@@ -186,6 +187,7 @@ int main(){
         * The next line // will be ignored by the compiler and it has been put to add additional comments in the program. So such lines are called comments in the program.
         * The next line printf(...) is another function available in C which causes the message "Hello, World!" to be displayed on the screen.
         * The next line return 0; terminates the main() function and returns the value 0.
+    C - Program Structure. (2012, June 10). Tutorials Point. Retrieved April 16, 2023, from https://www.tutorialspoint.com/cprogramming/c_program_structure.htm
     */
 
     /*
@@ -199,10 +201,12 @@ int main(){
     "Hello, World! \n"
     )
     ;
+    C - Basic Syntax. (2012, June 10). Tutorials Point. Retrieved April 16, 2023, from https://www.tutorialspoint.com/cprogramming/c_basic_syntax.htm
 
     Semicolons: In a C program, the semicolon is a statement terminator. That is, each individual statement must be ended with a semicolon. It indicates the end of one logical entity. Given below are two different statements:
     printf("Hello, World! \n");
     return 0;
+    C - Basic Syntax. (2012, June 10). Tutorials Point. Retrieved April 16, 2023, from https://www.tutorialspoint.com/cprogramming/c_basic_syntax.htm
 
     Comments: Comments are like helping text in your C program and they are ignored by the compiler. You cannot have comments within comments and they do not occur within a string or character literals.
     // this is a single line comment.
@@ -217,6 +221,7 @@ int main(){
     /*
     printf("Hello World!\n");
     */
+    // C - Basic Syntax. (2012, June 10). Tutorials Point. Retrieved April 16, 2023, from https://www.tutorialspoint.com/cprogramming/c_basic_syntax.htm
 
     /*
     Identifiers: A C identifier is a name used to identify a variable, function, or any other user-defined item. An identifier starts with a letter A to Z, a to z, or an underscore '_' followed by zero or more letters, underscores, and digits (0 to 9). C does not allow punctuation characters such as @, $, and % within identifiers. C is a case-sensitive programming language. Thus, Manpower and manpower are two different identifiers in C. The following list shows the reserved words in C. These reserved words may not be used as constants or variables or any other identifier names:
@@ -253,12 +258,14 @@ int main(){
         volatile
         while
         _Packed
+    C - Basic Syntax. (2012, June 10). Tutorials Point. Retrieved April 16, 2023, from https://www.tutorialspoint.com/cprogramming/c_basic_syntax.htm
 
     Whitespace in C: A line containing only whitespace, possibly with a comment, is known as a blank line, and a C compiler totally ignores it. Whitespace is the term used in C to describe blanks, tabs, newline characters and comments. Whitespace separates one part of a statement from another and enables the compiler to identify where one element in a statement, such as int, ends and the next element begins. Therefore, in the following statement:
     int age;
     There must be at least one whitespace character (usually a space) between int and age for the compiler to be able to distinguish them. On the other hand, in the following statement:
     fruit = apples + oranges;   // get the total fruit
     No whitespace characters are necessary between fruit and =, or between = and apples, although you are free to include some if you wish to increase readability.
+    C - Basic Syntax. (2012, June 10). Tutorials Point. Retrieved April 16, 2023, from https://www.tutorialspoint.com/cprogramming/c_basic_syntax.htm
     */
 
     /*
@@ -286,6 +293,7 @@ int main(){
         float (4 byte; 1.17549e-38 to 3.40282e+38)
         double (8 byte; 2.22507e-308 to 1.79769e+308)
         long double (10 byte; 2.22507e-308 to 1.79769e+308)
+    C - Data Types. (2012, June 10). Tutorials Point. Retrieved April 16, 2023, from https://www.tutorialspoint.com/cprogramming/c_data_types.htm
     */
 
     // % format specifier: Defines and formats a type of data to be displayed.
@@ -361,6 +369,7 @@ int main(){
     Some examples are:
     int d = 3, f = 5; // declaration and initializing d and f.
     For definition without an initializer: variables with static storage duration are implicitly initialized with NULL (all bytes have the value 0); the initial value of all other variables are undefined.
+    C - Variables. (2012, June 10). Tutorials Point. Retrieved April 16, 2023, from https://www.tutorialspoint.com/cprogramming/c_variables.htm
     */
 
     /*
@@ -406,6 +415,7 @@ int main(){
     The following example explains it in detail:
     const int LENGTH = 10;
     Note that it is a good programming practice to define constants in CAPITALS.
+    C - Constants and Literals. (2012, June 10). Tutorials Point. Retrieved April 16, 2023, from https://www.tutorialspoint.com/cprogramming/c_constants.htm
     */
 
     /*
@@ -416,6 +426,7 @@ int main(){
         * Bitwise Operators
         * Assignment Operators
         * Misc Operators
+    C - Operators. (2012, June 10). Tutorials Point. Retrieved April 16, 2023, from https://www.tutorialspoint.com/cprogramming/c_operators.htm
     */
     
     /*
@@ -448,6 +459,7 @@ int main(){
     printf("%d\n",e);
     printf("%d\n",f);
     printf("%d\n",g);
+    C - Operators. (2012, June 10). Tutorials Point. Retrieved April 16, 2023, from https://www.tutorialspoint.com/cprogramming/c_operators.htm
     */
 
     /*
@@ -458,6 +470,7 @@ int main(){
         != (Checks if the values of two operands are equal or not. If the values are not equal, then the condition becomes true.)
         >= (Checks if the value of left operand is greater than or equal to the value of right operand. If yes, then the condition becomes true.)
         <= (Checks if the value of left operand is less than or equal to the value of right operand. If yes, then the condition becomes true.) 
+    C - Operators. (2012, June 10). Tutorials Point. Retrieved April 16, 2023, from https://www.tutorialspoint.com/cprogramming/c_operators.htm
     */
 
     /*
@@ -468,7 +481,6 @@ int main(){
         ~ (Bitwise complement)
         << (Shift left)
         >> (Shift right)
-   
     */
 
     /*
@@ -480,6 +492,7 @@ int main(){
     int z = x ^ y; // 10 = 00001010
     z = x << 1; // 12 = 00001100
     z = x >> 1; // 3 = 00000011
+    C - Operators. (2012, June 10). Tutorials Point. Retrieved April 16, 2023, from https://www.tutorialspoint.com/cprogramming/c_operators.htm
     */
     
     // Assigment operators: Used to replace a statement where an operator takes a variable as one of its arguments and assigns the result back to the same variable. Examlple: x = x + 1; => x + = 1;
@@ -501,6 +514,7 @@ int main(){
     // x % = 2; // not working
 
     //printf("%d",x);
+    // C - Operators. (2012, June 10). Tutorials Point. Retrieved April 16, 2023, from https://www.tutorialspoint.com/cprogramming/c_operators.htm
 
     // standard inputs and outputs
     /*
@@ -556,6 +570,7 @@ int main(){
         nested if statements (You can use one if or else if statement inside another if or else if statement(s).)
         switch statement (A switch statement allows a variable to be tested for equality against a list of values.)
         nested switch statements (You can use one switch statement inside another switch statement(s).) 
+    C - Decision Making. (2012, June 10). Tutorials Point. Retrieved April 16, 2023, from https://www.tutorialspoint.com/cprogramming/c_decision_making.htm
     */    
 
     /*
@@ -669,6 +684,7 @@ int main(){
         && (Called Logical AND operator. If both the operands are non-zero, then the condition becomes true.)
         || (Called Logical OR Operator. If any of the two operands is non-zero, then the condition becomes true.)
         ! (Called Logical NOT Operator. It is used to reverse the logical state of its operand. If a condition is true, then Logical NOT operator will make it false.)
+    C - Operators. (2012, June 10). Tutorials Point. Retrieved April 16, 2023, from https://www.tutorialspoint.com/cprogramming/c_operators.htm
     */
 
     /*
@@ -700,6 +716,7 @@ int main(){
         & (Returns the address of a variable.)
         * (Pointer to a variable.)
         ? : (Conditional Expression.)
+    C - Operators. (2012, June 10). Tutorials Point. Retrieved April 16, 2023, from https://www.tutorialspoint.com/cprogramming/c_operators.htm
     */
 
     /*
@@ -710,6 +727,7 @@ int main(){
     syntax:
     condition ? value_if_true : value_if_false
     The statement evaluates to value_if_true if condition is met, and value_if_false otherwise. Here’s the above example rewritten to use the ternary operator:
+    C - Operators. (2012, June 10). Tutorials Point. Retrieved April 16, 2023, from https://www.tutorialspoint.com/cprogramming/c_operators.htm
     */
    /*
     int a = 10, b = 20, c;
@@ -737,6 +755,7 @@ int main(){
         || (Logical OR)
         ? : (Conditional)
         = += -= *= /= %=>>= <<= &= ^= |= (Assigment)
+    C - Operators. (2012, June 10). Tutorials Point. Retrieved April 16, 2023, from https://www.tutorialspoint.com/cprogramming/c_operators.htm
     */ 
 
     /*
@@ -759,6 +778,7 @@ int main(){
         * Call by value (This method copies the actual value of an argument into the formal parameter of the function. In this case, changes made to the parameter inside the function have no effect on the argument.)
         * Call by reference (This method copies the address of an argument into the formal parameter. Inside the function, the address is used to access the actual argument used in the call. This means that changes made to the parameter affect the argument.)
     By default, C uses call by value to pass arguments. In general, it means the code within a function cannot alter the arguments used to call the function.  
+    C - Functions. (2012, June 10). Tutorials Point. Retrieved April 16, 2023, from https://www.tutorialspoint.com/cprogramming/c_functions.htm
     */ 
     /*
     char name[] = "Balazs";
@@ -802,6 +822,7 @@ int main(){
         log10(number) (This function is used to calculates base 10 logarithm.)
         pow(number1,number2) (This is used to find the power of the given number.)
         trunc(number) (This function truncates the decimal value from floating point value and returns integer value.)
+    C Math Functions. (2022, February 21). W3schools. Retrieved April 16, 2023, from https://www.w3schools.com/c/c_math.php
     */
 
     /*
@@ -834,6 +855,7 @@ int main(){
     If you follow the rule of array initialization then you can write the above statement as follows:
     char greeting[] = "Hello";
     Actually, you do not place the null character at the end of a string constant. The C compiler automatically places the '\0' at the end of the string when it initializes the array. Let us try to print the above mentioned string.
+    C - Strings. (2012, June 10). Tutorials Point. Retrieved April 16, 2023, from https://www.tutorialspoint.com/cprogramming/c_strings.htm
     */
 
     /*
@@ -873,6 +895,7 @@ int main(){
         * Outside of all functions which is called global variables.
         * In the definition of function parameters which are called formal parameters.
     Local variables: Variables that are declared inside a function or block are called local variables. They can be used only by statements that are inside that function or block of code. Local variables are not known to functions outside their own. The following example shows how local variables are used. Here all the variables a, b, and c are local to main() function:
+    C - Scope Rules. (2012, June 10). Tutorials Point. Retrieved April 16, 2023, from https://www.tutorialspoint.com/cprogramming/c_scope_rules.htm
     */
 
     /*
@@ -886,7 +909,8 @@ int main(){
     */
 
     // Global variables: Global variables are defined outside a function, usually on top of the program. Global variables hold their values throughout the lifetime of your program and they can be accessed inside any of the functions defined for the program. A global variable can be accessed by any function. That is, a global variable is available for use throughout your entire program after its declaration. The following program show how global variables are used in a program:
-    
+    // C - Scope Rules. (2012, June 10). Tutorials Point. Retrieved April 16, 2023, from https://www.tutorialspoint.com/cprogramming/c_scope_rules.htm
+
     /*
     // local variable declaration
     int a, b;
@@ -898,7 +922,8 @@ int main(){
     */
 
     // A program can have same name for local and global variables but the value of local variable inside a function will take preference. Here is an example:
-    
+    // C - Scope Rules. (2012, June 10). Tutorials Point. Retrieved April 16, 2023, from https://www.tutorialspoint.com/cprogramming/c_scope_rules.htm
+
     /*
     // local variable declaration
     int g = 10;
@@ -925,6 +950,7 @@ int main(){
         double (0)
         pointer (NULL)
     It is a good programming practice to initialize variables properly, otherwise your program may produce unexpected results, because uninitialized variables will take some garbage value already available at their memory location.
+    C - Scope Rules. (2012, June 10). Tutorials Point. Retrieved April 16, 2023, from https://www.tutorialspoint.com/cprogramming/c_scope_rules.htm
     */
 
     /*
@@ -942,6 +968,7 @@ int main(){
       printf("This loop will run forever.\n");
     }
     When the conditional expression is absent, it is assumed to be true. You may have an initialization and increment expression, but C programmers more commonly use the for(;;) construct to signify an infinite loop. You can terminate an infinite loop by pressing Ctrl + C keys. 
+    C - Loops. (2012, June 10). Tutorials Point. Retrieved April 16, 2023, from https://www.tutorialspoint.com/cprogramming/c_loops.htm
     */
 
     /*
@@ -1036,6 +1063,7 @@ int main(){
         * passing arrays to functions (You can pass to the function a pointer to an array by specifying the array's name without an index.)
         * return array from a function (C allows a function to return an array.)
         * pointer to an array: (You can generate a pointer to the first element of an array by simply specifying the array name, without any index.)
+    C - Arrays. (2012, June 10). Tutorials Point. Retrieved April 16, 2023, from https://www.tutorialspoint.com/cprogramming/c_arrays.htm
     */
 
     /*
@@ -1182,6 +1210,7 @@ int main(){
     By convention, uppercase letters are used for these definitions to remind the user that the type name is really a symbolic abbreviation, but you can use lowercase, as follows:
     typedef unsigned char byte;
     You can use typedef to give a name to your user defined data types as well. For example, you can use typedef with structure to define a new data type and then use that data type to define structure variables directly as follows:   
+    C - typedef. (2012, June 10). Tutorials Point. Retrieved April 16, 2023, from https://www.tutorialspoint.com/cprogramming/c_typedef.htm
     */
 
     /*
@@ -1215,6 +1244,7 @@ int main(){
     typedef vs #define: #define is a C-directive which is also used to define the aliases for various data types similar to typedef but with the following differences:
         * typedef is limited to giving symbolic names to types only where as #define can be used to define alias for values as well, q., you can define 1 as ONE etc.
         * typedef interpretation is performed by the compiler whereas #define statements are processed by the pre-processor.
+    C - typedef. (2012, June 10). Tutorials Point. Retrieved April 16, 2023, from https://www.tutorialspoint.com/cprogramming/c_typedef.htm
     */
 
     // Array of structures
@@ -1238,6 +1268,7 @@ int main(){
     */
 
     // enum: A user defined type of named integer identifiers. It helps to make a program more readable. Enums are NOT STRINGS, but they can be treated as int.
+    // User defined Data Types in C++. (2018, October 22). Tutorials Point. Retrieved April 16, 2023, from https://www.geeksforgeeks.org/user-defined-data-types-in-c/
     /*
     enum Day today = Mon;
     //printf("%d",today);
@@ -1332,6 +1363,7 @@ int main(){
 
     /*
     Pointers: Pointers in C are easy and fun to learn. Some C programming tasks are performed more easily with pointers, and other tasks, such as dynamic memory allocation, cannot be performed without using pointers. So it becomes necessary to learn pointers to become a perfect C programmer. Let's start learning them in simple and easy steps. As you know, every variable is a memory location and every memory location has its address defined which can be accessed using ampersand (&) operator, which denotes an address in memory. Consider the following example, which prints the address of the variables defined: 
+    C - Pointers. (2012, June 10). Tutorials Point. Retrieved April 16, 2023, from https://www.tutorialspoint.com/cprogramming/c_pointers.htm
     */
 
     /*
@@ -1352,6 +1384,7 @@ int main(){
     char   *ch     // pointer to a character
     The actual data type of the value of all pointers, whether integer, float, character, or otherwise, is the same, a long hexadecimal number that represents a memory address. The only difference between pointers of different data types is the data type of the variable or constant that the pointer points to.
     How to use pointers? : There are a few important operations, which we will do with the help of pointers very frequently. (a) We define a pointer variable, (b) assign the address of a variable to a pointer and (c) finally access the value at the address available in the pointer variable. This is done by using unary operator * that returns the value of the variable located at the address specified by its operand. The following example makes use of these operations:
+    C - Pointers. (2012, June 10). Tutorials Point. Retrieved April 16, 2023, from https://www.tutorialspoint.com/cprogramming/c_pointers.htm
     */
 
     /*
@@ -1371,24 +1404,13 @@ int main(){
 
     /*
     NULL pointers: It is always a good practice to assign a NULL value to a pointer variable in case you do not have an exact address to be assigned. This is done at the time of variable declaration. A pointer that is assigned NULL is called a null pointer. The NULL pointer is a constant with a value of zero defined in several standard libraries. Consider the following program: 
+    C - Pointers. (2012, June 10). Tutorials Point. Retrieved April 16, 2023, from https://www.tutorialspoint.com/cprogramming/c_pointers.htm
     */
 
     /*
     int  *ptr = NULL;
 
     printf("The value of ptr is : %x\n", ptr  );
-    */
-
-    /*
-    In most of the operating systems, programs are not permitted to access memory at address 0 because that memory is reserved by the operating system. However, the memory address 0 has special significance; it signals that the pointer is not intended to point to an accessible memory location. But by convention, if a pointer contains the null (zero) value, it is assumed to point to nothing. To check for a null pointer, you can use an 'if' statement as follows:
-    if(ptr)     // succeeds if p is not null
-i   f(!ptr)    // succeeds if p is null
-    Pointers in detail: Pointers have many but easy concepts and they are very important to C programming. The following important pointer concepts should be clear to any C programmer:
-        * Pointer arithmetic (There are four arithmetic operators that can be used in pointers: ++, --, +, -)
-        * Array of pointers (You can define arrays to hold a number of pointers.)
-        * Pointer to pointer (C allows you to have pointer on a pointer and so on.)
-        * Passing pointers to functions in C (Passing an argument by reference or by address enable the passed argument to be changed in the calling function by the called function.)
-        * Return pointer from functions in C (C allows a function to return a pointer to the local variable, static variable, and dynamically allocated memory as well.) 
     */
 
     /*
@@ -1399,6 +1421,7 @@ i   f(!ptr)    // succeeds if p is null
         * Standard error (File pointer: stderr; Device: your screen)
     The file pointers are the means to access the file for reading and writing purpose. This section explains how to read values fom the screen and how to print the result on the screen.
     The getchar() and putchar() functions: The int getchar(void) function reads the next available character from the screen and returns it as an integer. This function reads only single character at a time. You can use this method in the loop in case you want to read more than one character from the screen. The int putchar(int c) function puts the passed character on the screen and returns the same character. This function puts only single character at a time. You can use this method in the loop in case you want to display more than one character on the screen. Check the following example: 
+    C - Input and Output. (2012, June 10). Tutorials Point. Retrieved April 16, 2023, from https://www.tutorialspoint.com/cprogramming/c_input_output.htm
     */
 
     /*
@@ -1413,6 +1436,7 @@ i   f(!ptr)    // succeeds if p is null
 
     /*
     The gets() and puts() functions: The char *gets(char *s) function reads a line from stdin into the buffer pointed to by s until either a terminating newline or EOF (End of File). The int puts(const char *s) function writes the string 's' and 'a' trailing newline to stdout. NOTE: Though it has been deprecated to use gets() function, Instead of using gets, you want to use fgets():   
+    C - Pointers. (2012, June 10). Tutorials Point. Retrieved April 16, 2023, from https://www.tutorialspoint.com/cprogramming/c_pointers.htm
     */
 
     /*
@@ -1427,6 +1451,7 @@ i   f(!ptr)    // succeeds if p is null
 
     /*
     The scanf() and printf() functions: The int scanf(const char *format, ...) function reads the input from the standard input stream stdin and scans that input according to the format provided. The int printf(const char *format, ...) function writes the output to the standard output stream stdout and produces the output according to the format provided. The format can be a simple constant string, but you can specify %s, %d, %c, %f, etc., to print or read strings, integer, character or float respectively. There are many other formatting options available which can be used based on requirements. Let us now proceed with a simple example to understand the concepts better. It should be noted that scanf() expects input in the same format as you provided %s and %d, which means you have to provide valid inputs like "string integer". If you provide "string string" or "integer integer", then it will be assumed as wrong input. Secondly, while reading a string, scanf() stops reading as soon as it encounters a space, so "this is test" are three strings for scanf():    
+    C - Pointers. (2012, June 10). Tutorials Point. Retrieved April 16, 2023, from https://www.tutorialspoint.com/cprogramming/c_pointers.htm
     */
 
     /*
@@ -1469,6 +1494,7 @@ i   f(!ptr)    // succeeds if p is null
     size_t fread(void *ptr, size_t size_of_elements, size_t number_of_elements, FILE *a_file);        
     size_t fwrite(const void *ptr, size_t size_of_elements, size_t number_of_elements, FILE *a_file);   
     Both of these functions should be used to read or write blocks of memories - usually arrays or structures.
+    C - File I/O. (2012, June 10). Tutorials Point. Retrieved April 16, 2023, from https://www.tutorialspoint.com/cprogramming/c_file_io.htm
     */
 
     /*
@@ -1517,6 +1543,7 @@ i   f(!ptr)    // succeeds if p is null
         * The perror() function displays the string you pass to it, followed by a colon, a space, and then the textual representation of the current errno value.
         * The strerror() function, which returns a pointer to the textual representation of the current errno value.
     Let's try to simulate an error condition and try to open a file which does not exist. Here I'm using both the functions to show the usage, but you can use one or more ways of printing your errors. Second important point to note is that you should use stderr file stream to output all the errors:     
+    C - Error Handling. (2012, June 10). Tutorials Point. Retrieved April 16, 2023, from https://www.tutorialspoint.com/cprogramming/c_error_handling.htm
     */
 
     /*
@@ -1535,6 +1562,7 @@ i   f(!ptr)    // succeeds if p is null
 
     /*
     Divide by zero errors: It is a common problem that at the time of dividing any number, programmers do not check if a divisor is zero and finally it creates a runtime error. The code below fixes this by checking if the divisor is zero before dividing:   
+    C - Error Handling. (2012, June 10). Tutorials Point. Retrieved April 16, 2023, from https://www.tutorialspoint.com/cprogramming/c_error_handling.htm
     */
 
     /*
@@ -1552,6 +1580,7 @@ i   f(!ptr)    // succeeds if p is null
 
     /*
     Proram exit status: It is a common practice to exit with a value of EXIT_SUCCESS in case of program coming out after a successful operation. Here, EXIT_SUCCESS is a macro and it is defined as 0. If you have an error condition in your program and you are coming out then you should exit with a status EXIT_FAILURE which is defined as -1. So let's write above program as follows:  
+    C - Error Handling. (2012, June 10). Tutorials Point. Retrieved April 16, 2023, from https://www.tutorialspoint.com/cprogramming/c_error_handling.htm
     */
 
     /*
