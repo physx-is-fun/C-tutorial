@@ -6,7 +6,7 @@ Here we can study the basics of programming in C.
 [Program Structure](programstructure.md)
 
 ## Table of contents - source code
-[helloworld](myfirstcode.c)
+[Program structure](programstructure.c)
 
 ## Bibliography
 
