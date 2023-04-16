@@ -4,6 +4,7 @@ Here we can study the basics of programming in C.
 
 ## Table of contents - text
 [Program Structure](programstructure.md)
+s
 [Basic Syntax](basicsyntax.md)
 
 ## Table of contents - source code
