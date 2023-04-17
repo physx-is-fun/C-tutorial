@@ -7,8 +7,22 @@ Here we can study the basics of programming in C.
 
 [Basic Syntax](basicsyntax.md)
 
+[Data types](datatypes.md)
+
+[Variable](variable.md)
+
+[Constants and literals](constant.md)
+
 ## Table of contents - source code
 [Program structure](programstructure.c)
+
+[Format specifier](formatspecifier.c)
+
+[Arithmetic operators](arithmetic.c)
+
+[Bitwise operators](bitwise.c)
+
+[Assigment operators](assigment.c)
 
 ## Bibliography
 
