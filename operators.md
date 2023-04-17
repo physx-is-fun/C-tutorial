@@ -35,6 +35,41 @@ Bitwise operators: During computation, mathematical operations like: addition, s
 
 Assigment operators: Used to replace a statement where an operator takes a variable as one of its arguments and assigns the result back to the same variable. Examlple: x = x + 1; => x + = 1;
 
+Logical operators: An expression containing logical operator returns either 0 or 1 depending upon whether expression results true or false. Logical operators are commonly used in decision making in C programming.
+    && (Called Logical AND operator. If both the operands are non-zero, then the condition becomes true.)
+    || (Called Logical OR Operator. If any of the two operands is non-zero, then the condition becomes true.)
+    ! (Called Logical NOT Operator. It is used to reverse the logical state of its operand. If a condition is true, then Logical NOT operator will make it false.)
+
+Misc operators: Besides the operators discussed above, there are a few other important operators including sizeof and ? : supported by the C Language.
+    sizeof()	(Returns the size of a variable.)
+    & (Returns the address of a variable.)
+    * (Pointer to a variable.)
+    ? : (Conditional Expression.)
+
+Ternary operator: Programmers use the ternary operator for decision making in place of longer if and else conditional statements. The ternary operator take three arguments:
+    * The first is a comparison argument.
+    * The second is the result upon a true comparison.
+    * The third is the result upon a false comparison.
+syntax:
+condition ? value_if_true : value_if_false
+The statement evaluates to value_if_true if condition is met, and value_if_false otherwise. Here’s the above example rewritten to use the ternary operator:
+
+Operators precedence: Operator precedence determines the grouping of terms in an expression and decides how an expression is evaluated. Certain operators have higher precedence than others. Here, operators with the highest precedence appear at the top of the table, those with the lowest appear at the bottom. Within an expression, higher precedence operators will be evaluated first.
+    () [] -> . ++ - - (Postfix)
+    + - ! ~ ++ - - (type)* & sizeof (Unary)
+    * / % (Multiplicative)
+    + - (Additive)
+    << >> (Shift)
+    < <= > >= (Relational)
+    == != (Equality)
+    & (Bitwise AND)
+    ^ (Bitwise XOR)
+    | (Bitwise OR)
+    && (Logical AND)
+    || (Logical OR)
+    ? : (Conditional)
+    = += -= *= /= %=>>= <<= &= ^= |= (Assigment)
+
 ## Bibliography
 
 C - Operators. (2012, June 10). Tutorials Point. Retrieved April 16, 2023, from https://www.tutorialspoint.com/cprogramming/c_operators.htm
