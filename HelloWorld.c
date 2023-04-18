@@ -781,8 +781,8 @@ int main(){
     C - Functions. (2012, June 10). Tutorials Point. Retrieved April 16, 2023, from https://www.tutorialspoint.com/cprogramming/c_functions.htm
     */ 
     /*
-    char name[] = "Balazs";
-    int age = 30;
+    char name[] = "John";
+    int age = 25;
     birthday(name,age);
     */
 
@@ -799,8 +799,8 @@ int main(){
     */
 
     /*
-    char name[] = "Balazs";
-    int age = 30;
+    char name[] = "John";
+    int age = 25;
     hello(name,age)
     */
 

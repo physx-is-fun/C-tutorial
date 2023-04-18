@@ -16,6 +16,8 @@ Here we can study the basics of programming in C.
 
 [Decision making](decision.md)
 
+[Functions](functions.md)
+
 ## Table of contents - source code
 
 [Program structure](programstructure.c)
@@ -37,6 +39,8 @@ Here we can study the basics of programming in C.
 [Grade](grade.c)
 
 [Calculator](calculator.c)
+
+[Functions](functions.c)
 
 ## Bibliography
 
