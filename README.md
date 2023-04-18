@@ -22,6 +22,8 @@ Here we can study the basics of programming in C.
 
 [Scope rules](scope.md)
 
+[Loops](loops.md)
+
 ## Table of contents - source code
 
 [Program structure](programstructure.c)
@@ -49,6 +51,8 @@ Here we can study the basics of programming in C.
 [Strings](strings.c)
 
 [Scope rules](scope.c)
+
+[Loops](loops.c)
 
 ## Bibliography
 
