@@ -899,19 +899,6 @@ int main(){
     */
 
     /*
-    int a, b;
-    int c;
-    // actual initialization
-    a = 10;
-    b = 20;
-    c = a + b;
-    printf ("value of a = %d, b = %d and c = %d\n", a, b, c);
-    */
-
-    // Global variables: Global variables are defined outside a function, usually on top of the program. Global variables hold their values throughout the lifetime of your program and they can be accessed inside any of the functions defined for the program. A global variable can be accessed by any function. That is, a global variable is available for use throughout your entire program after its declaration. The following program show how global variables are used in a program:
-    // C - Scope Rules. (2012, June 10). Tutorials Point. Retrieved April 16, 2023, from https://www.tutorialspoint.com/cprogramming/c_scope_rules.htm
-
-    /*
     // local variable declaration
     int a, b;
     // actual initialization
@@ -920,6 +907,9 @@ int main(){
     g = a + b;
     printf ("value of a = %d, b = %d and g = %d\n", a, b, g);
     */
+
+    // Global variables: Global variables are defined outside a function, usually on top of the program. Global variables hold their values throughout the lifetime of your program and they can be accessed inside any of the functions defined for the program. A global variable can be accessed by any function. That is, a global variable is available for use throughout your entire program after its declaration. The following program show how global variables are used in a program:
+    // C - Scope Rules. (2012, June 10). Tutorials Point. Retrieved April 16, 2023, from https://www.tutorialspoint.com/cprogramming/c_scope_rules.htm
 
     // A program can have same name for local and global variables but the value of local variable inside a function will take preference. Here is an example:
     // C - Scope Rules. (2012, June 10). Tutorials Point. Retrieved April 16, 2023, from https://www.tutorialspoint.com/cprogramming/c_scope_rules.htm

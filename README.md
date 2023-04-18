@@ -20,6 +20,8 @@ Here we can study the basics of programming in C.
 
 [Strings](strings.md)
 
+[Scope rules](scope.md)
+
 ## Table of contents - source code
 
 [Program structure](programstructure.c)
@@ -45,6 +47,8 @@ Here we can study the basics of programming in C.
 [Functions](functions.c)
 
 [Strings](strings.c)
+
+[Scope rules](scope.c)
 
 ## Bibliography
 
