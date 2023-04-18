@@ -18,6 +18,8 @@ Here we can study the basics of programming in C.
 
 [Functions](functions.md)
 
+[Strings](strings.md)
+
 ## Table of contents - source code
 
 [Program structure](programstructure.c)
@@ -41,6 +43,8 @@ Here we can study the basics of programming in C.
 [Calculator](calculator.c)
 
 [Functions](functions.c)
+
+[Strings](strings.c)
 
 ## Bibliography
 
