@@ -24,6 +24,8 @@ Here we can study the basics of programming in C.
 
 [Loops](loops.md)
 
+[Arrays](arrays.md)
+
 ## Table of contents - source code
 
 [Program structure](programstructure.c)
@@ -53,6 +55,8 @@ Here we can study the basics of programming in C.
 [Scope rules](scope.c)
 
 [Loops](loops.c)
+
+[Arrays](arrays.c)
 
 ## Bibliography
 
