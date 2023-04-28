@@ -64,3 +64,4 @@ Bro Code. (2021.10.7.). C Programming Full Course for free [Video]. YouTube. htt
 
 C tutorial. (2012, June 10). Tutorials Point. Retrieved April 16, 2023, from https://www.tutorialspoint.com/cprogramming/index.htm
 
+C Tutorial. (2022, February 21). W3schools. Retrieved April 16, 2023, from https://www.w3schools.com/c/index.php
