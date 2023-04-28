@@ -30,6 +30,8 @@ Here we can study the basics of programming in C.
 
 [Enum](enum.md)
 
+[Pointers](pointers.md)
+
 ## Table of contents - source code
 
 [Program structure](programstructure.c)
@@ -71,6 +73,8 @@ Here we can study the basics of programming in C.
 [Number guessing game](numberguessinggame.c)
 
 [Quiz game](quizgame.c)
+
+[Pointers](pointers.c)
 
 ## Bibliography
 
