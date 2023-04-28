@@ -68,6 +68,8 @@ Here we can study the basics of programming in C.
 
 [Random numbers](randomnumbers.c)
 
+[Number guessing game](numberguessinggame.c)
+
 ## Bibliography
 
 Bro Code. (2021.10.7.). C Programming Full Course for free [Video]. YouTube. https://www.youtube.com/watch?v=87SH2Cn0s9A
