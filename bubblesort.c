@@ -35,3 +35,5 @@ int main() {
     
     return 0;
 }
+
+// Bro Code. (2021.10.7.). C Programming Full Course for free [Video]. YouTube. https://www.youtube.com/watch?v=87SH2Cn0s9A
