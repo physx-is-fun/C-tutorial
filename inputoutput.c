@@ -10,11 +10,13 @@
 
 int main() {
     // The getchar() and putchar() functions
+    /*
     int c;
     printf( "Enter a value :");
     c = getchar( );
     printf( "\nYou entered: ");
     putchar( c );
+    */
 
     // The gets() and puts() functions
     /*
