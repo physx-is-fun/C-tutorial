@@ -96,11 +96,13 @@ Here we can study the basics of programming in C.
 
 [Bubblesort](bubblesort.c)
 
-[Find maximum](maximum.c)
+[Find maximum value of an array](maximum.c)
 
-[Find minimum](minimum.c)
+[Find minimum value of an array](minimum.c)
 
-[Sum](sum.c)
+[Find the sum of array of numbers](sum.c)
+
+[Selection of positive and negative numbers](selection.c)
 
 ## Bibliography
 
