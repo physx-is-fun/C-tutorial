@@ -34,6 +34,8 @@ Here we can study the basics of programming in C.
 
 [Input and output](inputoutput.md)
 
+[File I/O](fileio.md)
+
 ## Table of contents - source code
 
 [Program structure](programstructure.c)
@@ -79,6 +81,8 @@ Here we can study the basics of programming in C.
 [Pointers](pointers.c)
 
 [Input and output](inputoutput.c)
+
+[File I/O](fileio.c)
 
 ## Bibliography
 

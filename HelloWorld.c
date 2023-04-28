@@ -1490,7 +1490,6 @@ int main(){
     /*
     // Create and writing file
     // Relative path: test.txt
-    // Absolute path: C:\\Users\\balazstari\\OneDrive - Dunakontroll Kft\\Asztal\\C\\test.txt"
     FILE *pF = fopen("test.txt","w");
     fprintf(pF,"This is a sample text.");
     fclose(pF);
