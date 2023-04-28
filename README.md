@@ -28,6 +28,8 @@ Here we can study the basics of programming in C.
 
 [Structures](structures.md)
 
+[Enum](enum.md)
+
 ## Table of contents - source code
 
 [Program structure](programstructure.c)
@@ -61,6 +63,8 @@ Here we can study the basics of programming in C.
 [Arrays](arrays.c)
 
 [Structures](structures.c)
+
+[Enum](enum.c)
 
 ## Bibliography
 
