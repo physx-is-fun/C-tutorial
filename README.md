@@ -36,6 +36,8 @@ Here we can study the basics of programming in C.
 
 [File I/O](fileio.md)
 
+[Errorhandling](errorhandling.md)
+
 ## Table of contents - source code
 
 [Program structure](programstructure.c)
@@ -83,6 +85,8 @@ Here we can study the basics of programming in C.
 [Input and output](inputoutput.c)
 
 [File I/O](fileio.c)
+
+[Errorhandling](errorhandling.c)
 
 ## Bibliography
 
