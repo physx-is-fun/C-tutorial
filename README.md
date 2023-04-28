@@ -32,6 +32,8 @@ Here we can study the basics of programming in C.
 
 [Pointers](pointers.md)
 
+[Input and output](inputoutput.md)
+
 ## Table of contents - source code
 
 [Program structure](programstructure.c)
@@ -75,6 +77,8 @@ Here we can study the basics of programming in C.
 [Quiz game](quizgame.c)
 
 [Pointers](pointers.c)
+
+[Input and output](inputoutput.c)
 
 ## Bibliography
 

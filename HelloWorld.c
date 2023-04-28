@@ -1426,7 +1426,7 @@ int main(){
 
     /*
     The gets() and puts() functions: The char *gets(char *s) function reads a line from stdin into the buffer pointed to by s until either a terminating newline or EOF (End of File). The int puts(const char *s) function writes the string 's' and 'a' trailing newline to stdout. NOTE: Though it has been deprecated to use gets() function, Instead of using gets, you want to use fgets():   
-    C - Pointers. (2012, June 10). Tutorials Point. Retrieved April 16, 2023, from https://www.tutorialspoint.com/cprogramming/c_pointers.htm
+    C - Input and Output. (2012, June 10). Tutorials Point. Retrieved April 16, 2023, from https://www.tutorialspoint.com/cprogramming/c_input_output.htm
     */
 
     /*
@@ -1441,7 +1441,7 @@ int main(){
 
     /*
     The scanf() and printf() functions: The int scanf(const char *format, ...) function reads the input from the standard input stream stdin and scans that input according to the format provided. The int printf(const char *format, ...) function writes the output to the standard output stream stdout and produces the output according to the format provided. The format can be a simple constant string, but you can specify %s, %d, %c, %f, etc., to print or read strings, integer, character or float respectively. There are many other formatting options available which can be used based on requirements. Let us now proceed with a simple example to understand the concepts better. It should be noted that scanf() expects input in the same format as you provided %s and %d, which means you have to provide valid inputs like "string integer". If you provide "string string" or "integer integer", then it will be assumed as wrong input. Secondly, while reading a string, scanf() stops reading as soon as it encounters a space, so "this is test" are three strings for scanf():    
-    C - Pointers. (2012, June 10). Tutorials Point. Retrieved April 16, 2023, from https://www.tutorialspoint.com/cprogramming/c_pointers.htm
+    C - Input and Output. (2012, June 10). Tutorials Point. Retrieved April 16, 2023, from https://www.tutorialspoint.com/cprogramming/c_input_output.htm
     */
 
     /*
