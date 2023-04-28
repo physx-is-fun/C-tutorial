@@ -1639,7 +1639,7 @@ int main(){
     */
 
     /*
-    // Selection of positive and negative numbers without dynamic memory allocation
+    // Selection of positive and negative numbers
     int array[]={-5, -4, -3, -2, -1, 0, 1, 2, 3, 4, 5};
     int size = sizeof(array)/sizeof(array[0]);
     int negative[size];
@@ -1657,37 +1657,6 @@ int main(){
     for(int i=0; i< size-1; i++){
         printf("%d; ",positive[i]);
     }
-    */
-
-    /*
-    // Selection of positive and negative numbers with dynamic memory allocation
-    int array[]={-5, -4, -3, -2, -1, 0, 1, 2, 3, 4, 5};
-    positive = calloc(0,sizeof(int));
-    negative = calloc(0,sizeof(int));
-    int positiveIndex = 0;
-    int negativeIndex = 0;
-    for(int i=0; i<sizeof(array)/sizeof(array[0]); i++){
-        if(array[i] >= 0){
-            ++positiveIndex;
-            realloc(positive,positiveIndex*sizeof(int));
-            positive[positiveIndex] = array[i];
-        } else {
-            ++negativeIndex;
-            realloc(negative,negativeIndex*sizeof(int));
-            negative[negativeIndex] = array[i];
-        }
-    }
-    printf("Positive: %d",positive[0]);
-    printf("Negative numbers: ");
-    for(int i=0; i< sizeof(negative)/sizeof(negative[0]); i++){
-        printf("%d; ",negative[i]);
-    }
-    printf("\nPositive numbers: ");
-    for(int i=0; i< sizeof(positive)/sizeof(positive[0]); i++){
-        printf("%d; ",positive[i]);
-    }
-    free(positive);
-    free(negative);
     */
 
     /*
