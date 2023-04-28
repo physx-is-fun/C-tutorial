@@ -33,9 +33,9 @@ int main() {
 
     double A = sqrt(9);
     double B = pow(2,4);
-    int C = round(3.24); // lefelé kerekít
-    int D = ceil(3.14); // mindig felfelé kerekít
-    int E = floor(3.99); // mindig lefelé kerekít
+    int C = round(3.24); // rounds down
+    int D = ceil(3.14); // always rounds up
+    int E = floor(3.99); // always rounds down
     double F = abs(-100);
     double G = log(3);
     double H = sin(45);

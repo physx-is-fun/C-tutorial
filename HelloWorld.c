@@ -1218,8 +1218,8 @@ int main(){
     */
 
     /*
-    User user1 = {"Balazs","password123",123456789};
-    User user2 = {"Bela","password321",987654321};
+    User user1 = {"John","password123",123456789};
+    User user2 = {"Doe","password321",987654321};
 
     printf("%s\n",user1.name);
     printf("%s\n",user1.password);
