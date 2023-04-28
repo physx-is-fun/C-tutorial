@@ -61,3 +61,6 @@ Here we can study the basics of programming in C.
 ## Bibliography
 
 Bro Code. (2021.10.7.). C Programming Full Course for free [Video]. YouTube. https://www.youtube.com/watch?v=87SH2Cn0s9A
+
+C tutorial. (2012, June 10). Tutorials Point. Retrieved April 16, 2023, from https://www.tutorialspoint.com/cprogramming/index.htm
+
