@@ -23,6 +23,16 @@ void printBook( struct Books book ){
     printf( "Book book_id : %d\n", book.book_id);
 };
 
+// passing address
+/*
+void printBook( struct Books *book ) {
+   printf( "Book title : %s\n", book->title);
+   printf( "Book author : %s\n", book->author);
+   printf( "Book subject : %s\n", book->subject);
+   printf( "Book book_id : %d\n", book->book_id);
+}
+*/
+
 int main() {
     
     struct Books Book1;        // Declare Book1 of type Book
