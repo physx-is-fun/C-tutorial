@@ -1,6 +1,8 @@
 # Strings
 
-Strings: Strings are actually one-dimensional array of characters terminated by a null character '\0'. Thus a null-terminated string contains the characters that comprise the string followed by a null. The following declaration and initialization create a string consisting of the word "Hello". To hold the null character at the end of the array, the size of the character array containing the string is one more than the number of characters in the word "Hello."
+## Strings
+
+Strings are actually one-dimensional array of characters terminated by a null character '\0'. Thus a null-terminated string contains the characters that comprise the string followed by a null. The following declaration and initialization create a string consisting of the word "Hello". To hold the null character at the end of the array, the size of the character array containing the string is one more than the number of characters in the word "Hello."
 
 ```c
 char greeting[6] = {'H', 'e', 'l', 'l', 'o', '\0'};
@@ -15,6 +17,7 @@ char greeting[] = "Hello";
 Actually, you do not place the null character at the end of a string constant. The C compiler automatically places the '\0' at the end of the string when it initializes the array. Let us try to print the above mentioned string.
 
 C supports a wide range of functions that manipulate null-terminated strings
+    
     strcpy(s1, s2) (Copies string s2 into string s1.)
     strcat(s1, s2) (Concatenates string s2 onto the end of string s1.)
     strlen(s1) (Returns the length of string s1.)
