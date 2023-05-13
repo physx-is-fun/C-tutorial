@@ -9,6 +9,7 @@
 #include <errno.h>
 
 int main() {
+    
     float temp = 25;
     bool sunny = true;
 
