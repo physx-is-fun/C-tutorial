@@ -36,10 +36,11 @@ double salary = balance[9];
 ```
 
 Arrays in detail: Arrays are important to C and should need a lot more attention. The following important concepts related to array should be clear to a C programmer:
-    * multi-dimensional arrays (C supports multidimensional arrays. The simplest form of the multidimensional array is the two-dimensional array.)
-    * passing arrays to functions (You can pass to the function a pointer to an array by specifying the array's name without an index.)
-    * return array from a function (C allows a function to return an array.)
-    * pointer to an array: (You can generate a pointer to the first element of an array by simply specifying the array name, without any index.)
+    
+    multi-dimensional arrays (C supports multidimensional arrays. The simplest form of the multidimensional array is the two-dimensional array.)
+    passing arrays to functions (You can pass to the function a pointer to an array by specifying the array's name without an index.)
+    return array from a function (C allows a function to return an array.)
+    pointer to an array: (You can generate a pointer to the first element of an array by simply specifying the array name, without any index.)
 
 ## Bibliography
 
