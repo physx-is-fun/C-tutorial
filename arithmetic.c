@@ -11,7 +11,6 @@
 int main() {
     int x = 5;
     int y = 2;
-
     int a = x + y;
     int b = x - y;
     int c = a * b;
@@ -19,7 +18,6 @@ int main() {
     int e = x % y;
     int f = ++x;
     int g = --y;
-
     printf("%d\n",a);
     printf("%d\n",b);
     printf("%d\n",c);
