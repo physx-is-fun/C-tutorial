@@ -9,7 +9,6 @@
 #include <errno.h>
 
 int main() {
-   
     char a = 127; // %d or %c
     signed char b = 127;
     unsigned char c = 255; // %d or %c
