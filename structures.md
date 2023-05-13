@@ -1,10 +1,11 @@
 # Structures
 
 Structures: Arrays allow to define type of variables that can hold several data items of the same kind. Similarly structure is another user defined data type available in C that allows to combine data items of different kinds. Structures are used to represent a record. Suppose you want to keep track of your books in a library. You might want to track the following attributes about each book:
-    * title
-    * author
-    * subject
-    * book ID
+    
+    title
+    author
+    subject
+    book ID
 
 Defining a structure: To define a structure, you must use the struct statement. The struct statement defines a new data type, with more than one member. The format of the struct statement is as follows:
 struct [structure tag] {
@@ -47,4 +48,4 @@ struct_pointer->title;
 ## Bibliography
 ```
 
-// C - Structures. (2012, June 10). Tutorials Point. Retrieved April 16, 2023, from https://www.tutorialspoint.com/cprogramming/c_structures.htm
+C - Structures. (2012, June 10). Tutorials Point. Retrieved April 16, 2023, from https://www.tutorialspoint.com/cprogramming/c_structures.htm
