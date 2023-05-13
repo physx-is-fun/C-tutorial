@@ -14,6 +14,7 @@ A program can have same name for local and global variables but the value of loc
 Formal parameters: Formal parameters, are treated as local variables with-in a function and they take precedence over global variables.
 
 Initializing local and global variables: When a local variable is defined, it is not initialized by the system, you must initialize it yourself. Global variables are initialized automatically by the system when you define them as follows:
+    
     int (0)
     char ('\0')
     float (0)
