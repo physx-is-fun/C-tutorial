@@ -1,6 +1,8 @@
 # Enum
 
-Enum: A user defined type of named integer identifiers. It helps to make a program more readable. Enums are NOT STRINGS, but they can be treated as int.
+## Enum
+
+A user defined type of named integer identifiers. It helps to make a program more readable. Enums are NOT STRINGS, but they can be treated as int.
 
 ## Bibliography
 
