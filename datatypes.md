@@ -1,6 +1,8 @@
 # Data types
 
-Data types: Data types in c refer to an extensive system used for declaring variables or functions of different types. The type of a variable determines how much space it occupies in storage and how the bit pattern stored is interpreted. The types in C can be classified as follows:
+## Data types
+
+Data types in c refer to an extensive system used for declaring variables or functions of different types. The type of a variable determines how much space it occupies in storage and how the bit pattern stored is interpreted. The types in C can be classified as follows:
     
     Basic types: They are arithmetic types and are further classified into: 
         (a) integer types
@@ -34,7 +36,9 @@ Data types: Data types in c refer to an extensive system used for declaring vari
     double (8 byte; 2.22507e-308 to 1.79769e+308)
     long double (10 byte; 2.22507e-308 to 1.79769e+308)
 
-% format specifier: Defines and formats a type of data to be displayed.
+## % format specifier
+
+Defines and formats a type of data to be displayed.
 
 ## Bibliography
 
