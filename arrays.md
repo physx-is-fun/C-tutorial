@@ -1,7 +1,12 @@
 # Arrays
 
-Arrays: Arrays a kind of data structure that can store a fixed-size sequential collection of elements of the same type. An array is used to store a collection of data, but it is often more useful to think of an array as a collection of variables of the same type. Instead of declaring individual variables, such as number0, number1, ..., and number99, you declare one array variable such as numbers and use numbers[0], numbers[1], and ..., numbers[99] to represent individual variables. A specific element in an array is accessed by an index. All arrays consist of contiguous memory locations. The lowest address corresponds to the first element and the highest address to the last element.
-declaring arrays: To declare an array in C, a programmer specifies the type of the elements and the number of elements required by an array as follows:
+## Arrays 
+
+Arrays a kind of data structure that can store a fixed-size sequential collection of elements of the same type. An array is used to store a collection of data, but it is often more useful to think of an array as a collection of variables of the same type. Instead of declaring individual variables, such as number0, number1, ..., and number99, you declare one array variable such as numbers and use numbers[0], numbers[1], and ..., numbers[99] to represent individual variables. A specific element in an array is accessed by an index. All arrays consist of contiguous memory locations. The lowest address corresponds to the first element and the highest address to the last element.
+
+## Declaring arrays: 
+
+To declare an array in C, a programmer specifies the type of the elements and the number of elements required by an array as follows:
 type arrayName [ arraySize ];
 This is called a single-dimensional array. The arraySize must be an integer constant greater than zero and type can be any valid C data type. For example, to declare a 10-element array called balance of type double, use this statement:
 
@@ -35,7 +40,9 @@ accessing array elements: An element is accessed by indexing the array name. Thi
 double salary = balance[9];
 ```
 
-Arrays in detail: Arrays are important to C and should need a lot more attention. The following important concepts related to array should be clear to a C programmer:
+## Arrays in detail
+
+Arrays are important to C and should need a lot more attention. The following important concepts related to array should be clear to a C programmer:
     
     multi-dimensional arrays (C supports multidimensional arrays. The simplest form of the multidimensional array is the two-dimensional array.)
     passing arrays to functions (You can pass to the function a pointer to an array by specifying the array's name without an index.)
