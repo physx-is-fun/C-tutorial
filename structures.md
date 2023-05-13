@@ -1,13 +1,17 @@
 # Structures
 
-Structures: Arrays allow to define type of variables that can hold several data items of the same kind. Similarly structure is another user defined data type available in C that allows to combine data items of different kinds. Structures are used to represent a record. Suppose you want to keep track of your books in a library. You might want to track the following attributes about each book:
+## Structures
+
+Arrays allow to define type of variables that can hold several data items of the same kind. Similarly structure is another user defined data type available in C that allows to combine data items of different kinds. Structures are used to represent a record. Suppose you want to keep track of your books in a library. You might want to track the following attributes about each book:
     
     title
     author
     subject
     book ID
 
-Defining a structure: To define a structure, you must use the struct statement. The struct statement defines a new data type, with more than one member. The format of the struct statement is as follows:
+##Defining a structure
+
+To define a structure, you must use the struct statement. The struct statement defines a new data type, with more than one member. The format of the struct statement is as follows:
 struct [structure tag] {
     member definition;
     member definition;
@@ -26,7 +30,9 @@ struct Books {
 } book;
 ```
 
-Accessing structure members: To access any member of a structure, we use the member access operator (.). The member access operator is coded as a period between the structure variable name and the structure member that we wish to access. You would use the keyword struct to define variables of structure type.
+## Accessing structure members
+
+To access any member of a structure, we use the member access operator (.). The member access operator is coded as a period between the structure variable name and the structure member that we wish to access. You would use the keyword struct to define variables of structure type.
 Structures as function arguments: You can pass a structure as a function argument in the same way as you pass any other variable or pointer:
 Pointers to structures: You can define pointers to structures in the same way as you define pointer to any other variable:
 
