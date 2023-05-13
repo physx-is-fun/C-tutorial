@@ -44,8 +44,8 @@ To access the members of a structure using a pointer to that structure, you must
 
 ```c
 struct_pointer->title;
+```
 
 ## Bibliography
-```
 
 C - Structures. (2012, June 10). Tutorials Point. Retrieved April 16, 2023, from https://www.tutorialspoint.com/cprogramming/c_structures.htm
